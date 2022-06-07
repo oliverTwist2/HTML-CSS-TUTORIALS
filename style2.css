@@ -1,0 +1,27 @@
+p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        color: aqua;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+        color: blueviolet;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300%;
+        color: blue;
+    }
+}
